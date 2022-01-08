@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+main{
+    width: 60%;
+}
+
+.title{
+    padding: 2% 1%;
+    border-bottom: 1px solid green;
+    /* width: max-content; */
+    margin-bottom: 5vh;
+}
+
+.user-info{
+    background-color: aliceblue;
+    padding: 1%;
+    margin: 1%;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 10px 15px;
+    background-color: rgb(240, 247, 181);
+    text-transform:uppercase;
+    border: none;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    color: green;
+    cursor: pointer;
+}
+
+
+form{
+    margin-top: 5vh;
+    margin-left: 1%;
+}
+form input{
+    padding: 5px;
+    font-size: larger;
+}
+
+.error{
+    color: red;
+    margin: 1%;
+    padding: 1%;
+}
